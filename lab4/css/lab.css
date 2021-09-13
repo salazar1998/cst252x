@@ -1,0 +1,37 @@
+body {
+  background-color: #F59531;
+
+}
+
+p{
+  font-family: fantasy;
+  font-size: 20px;
+}
+h1, h2, h3 {
+    font-family: monospace;
+}
+div.intro{
+  background-color: #F5C131;
+  padding: 10px;
+  margin: 10px;
+  border:solid 1px #444444;
+  border-style: double;
+  border-width: thick;
+}
+div.steps{
+  background-color: #EB732F;
+  padding: 10px;
+  margin: 10px;
+  border:solid 1px #444444;
+  border-style: double;
+  border-width: thick;
+}
+img{
+  position:  sticky;
+  float: right;
+}
+pre {
+float: left;
+font-size: 20px;
+position:  static;
+}
