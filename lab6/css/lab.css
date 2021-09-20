@@ -1,0 +1,36 @@
+body {
+  background-color: #333333;
+
+}
+.content{
+  background-color: #C70039;
+  border-style: dotted;
+  border-width: thick;
+  padding: 5px;
+  margin: 5px;
+  color: white;
+}
+.script{
+  background-color: #581845;
+  border-style: double;
+  border-width: thick;
+  padding: 5px;
+  margin: 5px;
+  color: white;
+}
+.sourcelink{
+  color: white;
+  float: right;
+
+}
+
+p{
+  font-family: fantasy;
+  font-size: 20px;
+  color: white;
+}
+
+h1, h2, h3 {
+    font-family: monospace;
+    color: white;
+}
