@@ -1,16 +1,20 @@
 body {
-  background-color: #333333;
+  background-color: #034C3C;
+
+}
+img{
+  float: right;
 
 }
 .content{
-  background-color: #058ED9;
+  background-color: #A6A15E;
   border-style: dotted;
   border-width: thick;
   padding: 5px;
   margin: 5px;
   color: white;
 }
-.script{
+.output{
   background-color: #F4EBD9;
   border-style: double;
   border-width: thick;
@@ -19,7 +23,7 @@ body {
   color: white;
 }
 .sourcelink{
-  color: #77685D;
+  color: #C69F89;
   float: right;
 
 }
@@ -27,7 +31,7 @@ body {
 p{
   font-family: fantasy;
   font-size: 20px;
-  color: #77685D;
+  color: #034C3C;
 }
 
 h1, h2, h3 {

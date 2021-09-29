@@ -1,30 +1,32 @@
 /*
  * Author Carlos Salazar <carsalazar@csumb.edu>
- * Created Sep 27
+ * Created Sep 28
  * License: Public
  */
 
-// sortUserName - a function that takes user input and sorts the letter of their name
-function sortUserName() {
-	var userName = window.prompt("Hello do you want to see your name mixed up enter here ");
-	console.log("userName =", userName);
+ function sub10(x) {
+     var results = x - 10
+		 return results;
+ }
 
-// split string to array
-var nameArray = userName.split("");
-console.log("nameArray =", nameArray);
+ // test function
+ console.log("If we subtract 10 out of 100, it equals", sub10(100));
+ console.log("If we subtract 10 out of 150, it equals", sub10(150));
 
-// sort array
-var nameArraySort = nameArray.sort();
-console.log ("nameArraySort =", nameArraySort);
+ array = [30, 72, 80, 10, 120, 800, 2]
+ console.log("My array", array);
+ var result = array.map(sub10);
+ console.log("Subtract 10 from the array:", result);
 
-// join array back to a string
-var nameSorted = nameArraySort.join("");
-console.log("nameSorted =", nameSorted);
-
-// sort
-return nameSorted;
+ // Now we use the anonymous function with the map to do some new concepts
+ var result = array.map(function(x){
+    return x * 10;
+ })
+//task x
+//function to add text to given element
+function main() {
+		// get element by id
+		outputElement = document.getElementById("js-output");
+		// change contents of element
+		outputElement.innerHTML = "Y000000 We in task X now son!!";
 }
-
-// output in HTML
-document.writeln("Here you go, your new name... ",
-	sortUserName(), "</br>");
