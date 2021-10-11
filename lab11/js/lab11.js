@@ -5,11 +5,17 @@
  */
 
 //create a button element
+
+
+$("#output").append("<button id='my-button'>press me!")
+$("#output").css("background", "red")
+
 $(document).ready(function() {
-  $("#my-button").click(function(){
+  $("#output").click(function(){
+    $("#output").css("background-color", "#34eba8")
     alert("have fun with the button");
 
   });
 });
-//change design from the jquery
-$("#my-button").css("background", "red")
+
+$("#output").css("background", "red")
