@@ -8,8 +8,6 @@
 $("#challenge-button").click(function(){
 //action goes here
 $("#textbox1").css("background", "lightblue")
-$("#textbox1").removeClass("background", "lightblue");
-$("#textbox1").toggleClass("background", "lightblue");
 });
 
 $("#Problems-button").click(function(){
@@ -20,6 +18,6 @@ $("#textbox2").toggleClass("red-text");
 
 $("#Results-button").click(function(){
 //action goes here
-$("#textbox3").removeClass("green-text");
-$("#textbox3").toggleClass("red-text");
+$("#textbox3").toggleClass("green-text");
+$("#textbox3").removeClass("red-text");
 });

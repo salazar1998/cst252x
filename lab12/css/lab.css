@@ -6,14 +6,13 @@ img{
   float: right;
 
 }
-
 #content{
   background-color: #A6A15E;
   border-style: dotted;
   border-width: thick;
   padding: 5px;
   margin: 5px;
-  color: green;
+  color: black;
 }
 
 .sourcelink{
@@ -24,15 +23,15 @@ img{
 
 #challenge-button {
   background-color: none;
-  color:green;
+  color:black;
 }
 #Problems-button {
   background-color: none;
-  color:green;
+  color:black;
 }
 #Results-button {
   background-color: none;
-  color:green;
+  color:black;
 }
 .green-text{
   color:green;
