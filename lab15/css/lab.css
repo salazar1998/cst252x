@@ -1,0 +1,41 @@
+body {
+  background-color: #034C3C;
+
+}
+img{
+  float: right;
+
+}
+#content{
+  background-color: #A6A15E;
+  border-style: dotted;
+  border-width: thick;
+  padding: 5px;
+  margin: 5px;
+  color: black;
+}
+
+.sourcelink{
+  color: #C69F89;
+  float: right;
+
+}
+
+#challenge-button {
+  background-color: none;
+  color:black;
+}
+#Problems-button {
+  background-color: none;
+  color:black;
+}
+#Results-button {
+  background-color: none;
+  color:black;
+}
+.green-text{
+  color:green;
+}
+.red-text{
+  color:red;
+  }

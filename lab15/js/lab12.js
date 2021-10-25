@@ -5,7 +5,7 @@
  */
 
 //create a button element
-$("#Challenge-button").click(function(){
+$("#challenge-button").click(function(){
 //action goes here
 $("#textbox1").css("background", "lightblue")
 });
