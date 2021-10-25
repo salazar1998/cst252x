@@ -7,7 +7,8 @@
 //create a button element
 $("#challenge-button").click(function(){
 //action goes here
-$("#textbox1").css("background", "lightblue")
+$("#textbox1").removeClass("green-text");
+$("#textbox1").toggleClass("red-text");
 });
 
 $("#Problems-button").click(function(){
