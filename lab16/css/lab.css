@@ -1,0 +1,40 @@
+body {
+  background-color: #034C3C;
+
+}
+img{
+  float: right;
+
+}
+.content{
+  background-color: #A6A15E;
+  border-style: dotted;
+  border-width: thick;
+  padding: 5px;
+  margin: 5px;
+  color: white;
+}
+#output1{
+  background-color: #F4EBD9;
+  border-style: double;
+  border-width: thick;
+  padding: 5px;
+  margin: 5px;
+  color: green;
+}
+.sourcelink{
+  color: #C69F89;
+  float: right;
+
+}
+
+p{
+  font-family: fantasy;
+  font-size: 20px;
+  color: #034C3C;
+}
+
+h1, h2, h3 {
+    font-family: monospace;
+    color: #483D3F;
+}
