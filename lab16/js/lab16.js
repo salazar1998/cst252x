@@ -25,7 +25,7 @@
  var outputDiv = document.getElementById("output");
 
 
- // A loop to do Tasks
+ // the loop for the vehicles
  vehicles = [];
  var honda = new Vehicle("honda", "civic", "2005 car", "grey colored", "the first car I drove.");
  vehicles.push(honda);
